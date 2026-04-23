@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.0.2](https://github.com/esalbuquerquebr/d34j/compare/4bb81afea4eec2dc3760e960e4cba035f1d1c617..v0.0.2) - 2026-04-23
+#### Bug Fixes
+- 1a classe publica - ([4bb81af](https://github.com/esalbuquerquebr/d34j/commit/4bb81afea4eec2dc3760e960e4cba035f1d1c617)) - Eduardo Albuquerque
+
+- - -
+
 ## [v0.0.1](https://github.com/esalbuquerquebr/d34j/compare/f46ea83877986a65fd16e8bf8470c5959c1f7409..v0.0.1) - 2026-04-23
 #### Bug Fixes
 - cog - ([2d705fa](https://github.com/esalbuquerquebr/d34j/commit/2d705fae3b800d060a88aa47d67a5a49800e0ba6)) - Eduardo Albuquerque

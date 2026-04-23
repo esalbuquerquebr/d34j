@@ -3,13 +3,6 @@ ignore_merge_commits = true
 branch_whitelist = []
 tag_prefix = "v"
 
-[changelog]
-path = "CHANGELOG.md"
-template = "remote"
-remote = "github.com"
-repository = "d34j"
-owner = "esalbuquerquebr"
-
 pre_bump_hooks = [
     "mvn versions:set -DnewVersion={{version}} -DgenerateBackupPoms=false",
     "git add pom.xml",
@@ -19,3 +12,10 @@ post_bump_hooks = [
     "git push",
     "git push origin v{{version}}",
 ]
+
+[changelog]
+path = "CHANGELOG.md"
+template = "remote"
+remote = "github.com"
+repository = "d34j"
+owner = "esalbuquerquebr"

@@ -1,0 +1,90 @@
+# ==============================================================================
+# .gitignore
+# ==============================================================================
+
+# Build outputs
+target/
+.flattened-pom.xml
+**/target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+*.launch
+.apt_generated/
+.apt_generated_tests/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+.nb-gradle/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+*~
+.nfs*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Maven
+.mvn/timing.properties
+
+# JaCoCo
+*.exec
+jacoco.xml
+
+# Logs
+*.log
+logs/
+log/
+
+# Runtime / temp
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+
+
+# SpotBugs reports
+spotbugsXml.xml
+spotbugs.xml
+
+# Quarkus dev mode
+.quarkus/
+
+# Environment overrides — não versionar
+.env.local
+.env.*.local
